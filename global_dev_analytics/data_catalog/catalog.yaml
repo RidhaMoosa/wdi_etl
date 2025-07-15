@@ -1,0 +1,1701 @@
+datasets:
+  basic_drinking_water_access:
+    source: http://api.worldbank.org/v2/en/indicator/SH.H2O.BASW.ZS?downloadformat=csv
+    description: People using at least basic drinking water services (% of population)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  employment_to_population_15plus:
+    source: http://api.worldbank.org/v2/en/indicator/SL.EMP.TOTL.SP.NE.ZS?downloadformat=csv
+    description: Employment to population ratio, 15+, total (%) (national estimate)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1960'
+      dtype: float64
+    - name: '1961'
+      dtype: float64
+    - name: '1962'
+      dtype: float64
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  immunization_dpt:
+    source: http://api.worldbank.org/v2/en/indicator/SH.IMM.IDPT?downloadformat=csv
+    description: Immunization, DPT (% of children ages 12-23 months)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  hiv_prevalence_total:
+    source: http://api.worldbank.org/v2/en/indicator/SH.DYN.AIDS.ZS?downloadformat=csv
+    description: Prevalence of HIV, total (% of population ages 15-49)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  gdp_current_usd:
+    source: http://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv
+    description: GDP (current US$)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1960'
+      dtype: float64
+    - name: '1961'
+      dtype: float64
+    - name: '1962'
+      dtype: float64
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  gov_education_expenditure_percent_gdp:
+    source: http://api.worldbank.org/v2/en/indicator/SE.XPD.TOTL.GD.ZS?downloadformat=csv
+    description: Government expenditure on education, total (% of GDP)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  poverty_headcount_215:
+    source: http://api.worldbank.org/v2/en/indicator/SI.POV.DDAY?downloadformat=csv
+    description: Poverty headcount ratio at $2.15 a day (% of population)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    - name: '2024'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  life_expectancy_total:
+    source: http://api.worldbank.org/v2/en/indicator/SP.DYN.LE00.IN?downloadformat=csv
+    description: Life expectancy at birth, total (years)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1960'
+      dtype: float64
+    - name: '1961'
+      dtype: float64
+    - name: '1962'
+      dtype: float64
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  health_expenditure_per_capita:
+    source: http://api.worldbank.org/v2/en/indicator/SH.XPD.CHEX.PC.CD?downloadformat=csv
+    description: Current health expenditure per capita (current US$)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  gdp_per_capita_usd:
+    source: http://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CD?downloadformat=csv
+    description: GDP per capita (current US$)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1960'
+      dtype: float64
+    - name: '1961'
+      dtype: float64
+    - name: '1962'
+      dtype: float64
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  access_to_electricity:
+    source: http://api.worldbank.org/v2/en/indicator/EG.ELC.ACCS.ZS?downloadformat=csv
+    description: Access to electricity (% of population)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  school_enrollment_secondary:
+    source: http://api.worldbank.org/v2/en/indicator/SE.SEC.ENRR?downloadformat=csv
+    description: School enrollment, secondary (% gross)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  labor_force_total:
+    source: http://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.IN?downloadformat=csv
+    description: Labor force, total
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    - name: '2024'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  gni_per_capita_atlas:
+    source: http://api.worldbank.org/v2/en/indicator/NY.GNP.PCAP.CD?downloadformat=csv
+    description: Gross national income per capita, Atlas method (current US$)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1962'
+      dtype: float64
+    - name: '1963'
+      dtype: float64
+    - name: '1964'
+      dtype: float64
+    - name: '1965'
+      dtype: float64
+    - name: '1966'
+      dtype: float64
+    - name: '1967'
+      dtype: float64
+    - name: '1968'
+      dtype: float64
+    - name: '1969'
+      dtype: float64
+    - name: '1970'
+      dtype: float64
+    - name: '1971'
+      dtype: float64
+    - name: '1972'
+      dtype: float64
+    - name: '1973'
+      dtype: float64
+    - name: '1974'
+      dtype: float64
+    - name: '1975'
+      dtype: float64
+    - name: '1976'
+      dtype: float64
+    - name: '1977'
+      dtype: float64
+    - name: '1978'
+      dtype: float64
+    - name: '1979'
+      dtype: float64
+    - name: '1980'
+      dtype: float64
+    - name: '1981'
+      dtype: float64
+    - name: '1982'
+      dtype: float64
+    - name: '1983'
+      dtype: float64
+    - name: '1984'
+      dtype: float64
+    - name: '1985'
+      dtype: float64
+    - name: '1986'
+      dtype: float64
+    - name: '1987'
+      dtype: float64
+    - name: '1988'
+      dtype: float64
+    - name: '1989'
+      dtype: float64
+    - name: '1990'
+      dtype: float64
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  managed_sanitation_access:
+    source: http://api.worldbank.org/v2/en/indicator/SH.STA.SMSS.ZS?downloadformat=csv
+    description: People using safely managed sanitation services (% of population)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'
+  unemployment_total_percent:
+    source: http://api.worldbank.org/v2/en/indicator/SL.UEM.TOTL.ZS?downloadformat=csv
+    description: Unemployment, total (% of total labor force)
+    fields:
+    - name: country_name
+      dtype: object
+    - name: country_code
+      dtype: object
+    - name: indicator_name
+      dtype: object
+    - name: indicator_code
+      dtype: object
+    - name: '1991'
+      dtype: float64
+    - name: '1992'
+      dtype: float64
+    - name: '1993'
+      dtype: float64
+    - name: '1994'
+      dtype: float64
+    - name: '1995'
+      dtype: float64
+    - name: '1996'
+      dtype: float64
+    - name: '1997'
+      dtype: float64
+    - name: '1998'
+      dtype: float64
+    - name: '1999'
+      dtype: float64
+    - name: '2000'
+      dtype: float64
+    - name: '2001'
+      dtype: float64
+    - name: '2002'
+      dtype: float64
+    - name: '2003'
+      dtype: float64
+    - name: '2004'
+      dtype: float64
+    - name: '2005'
+      dtype: float64
+    - name: '2006'
+      dtype: float64
+    - name: '2007'
+      dtype: float64
+    - name: '2008'
+      dtype: float64
+    - name: '2009'
+      dtype: float64
+    - name: '2010'
+      dtype: float64
+    - name: '2011'
+      dtype: float64
+    - name: '2012'
+      dtype: float64
+    - name: '2013'
+      dtype: float64
+    - name: '2014'
+      dtype: float64
+    - name: '2015'
+      dtype: float64
+    - name: '2016'
+      dtype: float64
+    - name: '2017'
+      dtype: float64
+    - name: '2018'
+      dtype: float64
+    - name: '2019'
+      dtype: float64
+    - name: '2020'
+      dtype: float64
+    - name: '2021'
+      dtype: float64
+    - name: '2022'
+      dtype: float64
+    - name: '2023'
+      dtype: float64
+    - name: '2024'
+      dtype: float64
+    rows: 266
+    last_updated: '2025-06-29'

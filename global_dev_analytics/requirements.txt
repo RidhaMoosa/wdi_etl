@@ -1,0 +1,7 @@
+pandas
+requests
+pyyaml
+streamlit
+sqlalchemy
+openpyxl
+pyarrow

@@ -1,0 +1,102 @@
+sources:
+  - name: gdp_current_usd
+    url: "http://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv"
+    type: "csv"
+    description: "GDP (current US$)"
+    extract: true
+
+  - name: gdp_per_capita_usd
+    url: "http://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CD?downloadformat=csv"
+    type: "csv"
+    description: "GDP per capita (current US$)"
+    extract: true
+
+  - name: gni_per_capita_atlas
+    url: "http://api.worldbank.org/v2/en/indicator/NY.GNP.PCAP.CD?downloadformat=csv"
+    type: "csv"
+    description: "Gross national income per capita, Atlas method (current US$)"
+    extract: true
+
+  - name: labor_force_total
+    url: "http://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.IN?downloadformat=csv"
+    type: "csv"
+    description: "Labor force, total"
+    extract: true
+
+  - name: unemployment_total_percent
+    url: "http://api.worldbank.org/v2/en/indicator/SL.UEM.TOTL.ZS?downloadformat=csv"
+    type: "csv"
+    description: "Unemployment, total (% of total labor force)"
+    extract: true
+
+  - name: employment_to_population_15plus
+    url: "http://api.worldbank.org/v2/en/indicator/SL.EMP.TOTL.SP.NE.ZS?downloadformat=csv"
+    type: "csv"
+    description: "Employment to population ratio, 15+, total (%) (national estimate)"
+    extract: true
+
+  - name: life_expectancy_total
+    url: "http://api.worldbank.org/v2/en/indicator/SP.DYN.LE00.IN?downloadformat=csv"
+    type: "csv"
+    description: "Life expectancy at birth, total (years)"
+    extract: true
+
+  - name: poverty_headcount_215
+    url: "http://api.worldbank.org/v2/en/indicator/SI.POV.DDAY?downloadformat=csv"
+    type: "csv"
+    description: "Poverty headcount ratio at $2.15 a day (% of population)"
+    extract: true
+
+  - name: access_to_electricity
+    url: "http://api.worldbank.org/v2/en/indicator/EG.ELC.ACCS.ZS?downloadformat=csv"
+    type: "csv"
+    description: "Access to electricity (% of population)"
+    extract: true
+
+  - name: school_enrollment_secondary
+    url: "http://api.worldbank.org/v2/en/indicator/SE.SEC.ENRR?downloadformat=csv"
+    type: "csv"
+    description: "School enrollment, secondary (% gross)"
+    extract: true
+
+  - name: health_expenditure_per_capita
+    url: "http://api.worldbank.org/v2/en/indicator/SH.XPD.CHEX.PC.CD?downloadformat=csv"
+    type: "csv"
+    description: "Current health expenditure per capita (current US$)"
+    extract: true
+
+  - name: immunization_dpt
+    url: "http://api.worldbank.org/v2/en/indicator/SH.IMM.IDPT?downloadformat=csv"
+    type: "csv"
+    description: "Immunization, DPT (% of children ages 12-23 months)"
+    extract: true
+
+  - name: hiv_prevalence_total
+    url: "http://api.worldbank.org/v2/en/indicator/SH.DYN.AIDS.ZS?downloadformat=csv"
+    type: "csv"
+    description: "Prevalence of HIV, total (% of population ages 15-49)"
+    extract: true
+
+  - name: gov_education_expenditure_percent_gdp
+    url: "http://api.worldbank.org/v2/en/indicator/SE.XPD.TOTL.GD.ZS?downloadformat=csv"
+    type: "csv"
+    description: "Government expenditure on education, total (% of GDP)"
+    extract: true
+
+  - name: social_protection_labor_spending
+    url: "https://databankfiles.worldbank.org/public/ddpext_download/DECDG/IC/series/per_lm_sp.csv"
+    type: "csv"
+    description: "Social protection & labor spending (% of GDP)"
+    extract: true
+
+  - name: basic_drinking_water_access
+    url: "http://api.worldbank.org/v2/en/indicator/SH.H2O.BASW.ZS?downloadformat=csv"
+    type: "csv"
+    description: "People using at least basic drinking water services (% of population)"
+    extract: true
+
+  - name: managed_sanitation_access
+    url: "http://api.worldbank.org/v2/en/indicator/SH.STA.SMSS.ZS?downloadformat=csv"
+    type: "csv"
+    description: "People using safely managed sanitation services (% of population)"
+    extract: true
